@@ -1,0 +1,108 @@
+%
+% The first command in your LaTeX source must be the \documentclass command.
+\documentclass[sigconf]{acmart}
+%
+% defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+    
+% Rights management information. 
+% This information is sent to you when you complete the rights form.
+% These commands have SAMPLE values in them; it is your responsibility as an author to replace
+% the commands and values with those provided to you when you complete the rights form.
+%
+
+
+
+
+%%%%%%%%%%%%%%5
+\usepackage{lipsum}
+
+\begin{document}
+
+%
+% The "title" command has an optional parameter, allowing the author to define a "short title" to be used in page headers.
+\title{Collaboration among Agile Teams}
+
+%
+% The "author" command and its associated commands are used to define the authors and their affiliations.
+% Of note is the shared affiliation of the first two authors, and the "authornote" and "authornotemark" commands
+% used to denote shared contribution to the research.
+\author{Carnic; R. Mantri }
+
+%
+% The abstract is a short summary of the work to be presented in the article.
+\begin{abstract}
+The technology industry is moving at such a fast pace, that it led to the introduction of the ‘agile methodology’ that allows changes even after the requirements have been stated. The agile manifesto talks about certain rules that a SCRUM team has to follow in order to be a self-organised team. However, having said that, SCRUM can be implemented only on a small team. It does not talk about how multiple teams following \textit {agile} should work and respond to changes. Many projects are larger and need more than one team to succeed, which may result in issues for project managers on how to effectively coordinate. Although coordinating large, multi team projects is not new, but doing it in agile projects is new. 
+
+
+This paper presents a solution that can be used to solve this problem. Making rules similar to that of scrum, will lead to an effective collaboration among the teams in order to result in the desirable product. It is highly important to be able to perform project management in the best way possible to grow in this market, especially if the project is at a large scale.
+\end{abstract}
+
+
+%
+% Keywords. The author(s) should pick words that accurately describe the work being
+% presented. Separate the keywords with commas.
+\keywords{datasets, neural  networks, gaze detection, text tagging}
+
+%
+% A "teaser" image appears between the author and affiliation information and the body 
+% of the document, and typically spans the page. 
+
+
+%
+% This command processes the author and affiliation and title information and builds
+% the first part of the formatted document.
+\maketitle
+
+\section{INTRODUCTION}
+
+\section{Proposed Approach}
+Although the rules for following SCRUM are pretty straightforward when it comes to one group, it is uncertain as to how multiple teams should collaborate together. 
+However, following the laid back pattern of agile, we can form something similar to what we can call the scrum of scrums. The teams will work individually following the rules specified in the Agile Manifesto, however, similar ones can be applied to make the teams collaborate effectively. 
+
+Before the project begins, it is vital for all members to not just understand the requirements, but also the architecture of the project. Because it is being implemented on such a large scale, each member should know where their contribution will be linked to the final product. This means that they should have a clear idea about the stage of the project when they have to add their product. Knowing the architecture is basically knowing the plan of the system. Therefore it makes the communication among the teams and stakeholders much easier and the decision making process much more efficient. It also means that the model of the software will be ready and will be available for reuse if required. 
+
+While software architecture will provide the developers with the model, they need to design the software as well to divide the work in order to work as independent teams. It will prevent redundancy and ensure that their work does not interfere with each other, minimising dependencies.This will help the stakeholders and developers get a clear idea on how the software will look on completion. It is the initial vision of the project, and if understood well, the teams will not have a hard time combining their separate products in the end.
+
+As it works in agile, each team should have multidisciplinary members with various skillsets so that they have a necessary cultural and structural change to support themselves. Within the team however, they should work like they do following scrum, and have their independency in order to be self organised. The scrum masters of each team can have something similar to a ‘Daily Stand up’ at the end of each sprint in order to discuss the progress of each team and talk about the impediments faced. If a team feels they need help from another, they can decide amongst themselves to come across some agreement. This will map cross team dependencies and help them understand how their separate efforts will contribute. If there are multiple product owners, they can check in more often to talk about the scope and acceptance criteria and prioritise their product backlogs whenever required. Cross team retrospectives will also be a part of this process to allow the teams to examine their progress and identify items that need to be improved.  
+
+When a few teams start working together, they can have a separate short meeting to discuss the way they will go about it. This will reduce inconsistency when the individual efforts are integrated. 
+
+
+% \lipsum
+
+\section{CONCLUSION}
+
+
+
+\section{Citations and Bibliographies}
+
+The use of \BibTeX\ for the preparation and formatting of one's references is strongly recommended. Authors' names should be complete --- use full first names (``Donald E. Knuth'') not initials (``D. E. Knuth'') --- and the salient identifying features of a reference should be included: title, year, volume, number, pages, article DOI, etc. 
+
+The bibliography is included in your source document with these two commands, placed just before the \verb|\end{document}| command:
+\begin{verbatim}
+  \bibliographystyle{ACM-Reference-Format}
+  \bibliography{bibfile}
+\end{verbatim}
+where ``\verb|bibfile|'' is the name, without the ``\verb|.bib|'' suffix, of the \BibTeX\ file.
+
+Citations and references are numbered by default. A small number of ACM publications have citations and references formatted in the ``author year'' style; for these exceptions, please include this command in the {\bf preamble} (before ``\verb|\begin{document}|'') of your \LaTeX\ source: 
+\begin{verbatim}
+  \citestyle{acmauthoryear}
+\end{verbatim}
+
+Some examples.  A paginated journal article \cite{Abril07}, an enumerated journal article \cite{Cohen07}, a reference to an entire issue \cite{JCohen96}, a monograph (whole book) \cite{Kosiur01}, a monograph/whole book in a series (see 2a in spec. document)
+\cite{Harel79}, a divisible-book such as an anthology or compilation \cite{Editor00} followed by the same example, however we only output the series if the volume number is given \cite{Editor00a} (so Editor00a's series should NOT be present since it has no vol. no.),
+a chapter in a divisible book \cite{Spector90}, a chapter in a divisible book in a series \cite{Douglass98}, a multi-volume work as book \cite{Knuth97}, an article in a proceedings (of a conference, symposium, workshop for example) (paginated proceedings article) \cite{Andler79}, a proceedings article with all possible elements \cite{Smith10}, an example of an enumerated proceedings article \cite{VanGundy07}, an informally published work \cite{Harel78}, a doctoral dissertation \cite{Clarkson85}, a master's thesis: \cite{anisi03}, an online document / world wide web resource \cite{Thornburg01, Ablamowicz07, Poker06}, a video game (Case 1) \cite{Obama08} and (Case 2) \cite{Novak03} and \cite{Lee05} and (Case 3) a patent \cite{JoeScientist001}, work accepted for publication \cite{rous08}, 'YYYYb'-test for prolific author \cite{SaeediMEJ10} and \cite{SaeediJETC10}. Other cites might contain 'duplicate' DOI and URLs (some SIAM articles) \cite{Kirschmer:2010:AEI:1958016.1958018}. Boris / Barbara Beeton: multi-volume works as books \cite{MR781536} and \cite{MR781537}. A couple of citations with DOIs: \cite{2004:ITE:1009386.1010128,Kirschmer:2010:AEI:1958016.1958018}. Online citations: \cite{TUGInstmem, Thornburg01, CTANacmart}.
+%
+% The next two lines define the bibliography style to be used, and the bibliography file.
+\bibliographystyle{ACM-Reference-Format}%alpha
+\bibliography{sample-base}
+
+% 
+% If your work has an appendix, this is the place to put it.
+\appendix
+
+\section{erer}
+
+\end{document}
