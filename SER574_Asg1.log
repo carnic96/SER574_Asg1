@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  20 JAN 2019 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  20 JAN 2019 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1099,8 +1099,10 @@ Package hyperref Warning: Option `pdfdisplaydoctitle' has already been used,
 
 ]
 (./SER574_Asg1.bbl
-LaTeX Info: Redefining \tempurl on input line 60.
-LaTeX Info: Redefining \tempurl on input line 74.
+LaTeX Info: Redefining \tempurl on input line 59.
+LaTeX Info: Redefining \tempurl on input line 72.
+LaTeX Info: Redefining \tempurl on input line 85.
+LaTeX Info: Redefining \tempurl on input line 99.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 111.
@@ -1116,11 +1118,11 @@ Package rerunfilecheck Info: File `SER574_Asg1.out' has not changed.
 (rerunfilecheck)             Checksum: CB1E9FF6F6BB679067E5164FC939DE03;544.
  ) 
 Here is how much of TeX's memory you used:
- 17959 strings out of 492649
- 269939 string characters out of 6129622
- 487749 words of memory out of 5000000
- 21174 multiletter control sequences out of 15000+600000
- 120869 words of font info for 197 fonts, out of 8000000 for 9000
+ 17961 strings out of 492649
+ 269911 string characters out of 6129622
+ 488807 words of memory out of 5000000
+ 21180 multiletter control sequences out of 15000+600000
+ 120323 words of font info for 193 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  60i,11n,94p,1068b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc
@@ -1134,10 +1136,10 @@ pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLiberti
 neT.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/LinLib
 ertineTB.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/libertine/L
 inLibertineTI.pfb>
-Output written on SER574_Asg1.pdf (2 pages, 344461 bytes).
+Output written on SER574_Asg1.pdf (2 pages, 345768 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  42549 words of extra memory for PDF output out of 42996 (max. 10000000)
 

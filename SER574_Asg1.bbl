@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{3}
+\begin{thebibliography}{5}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -45,6 +45,31 @@
 \newblock
 \urldef\tempurl%
 \url{https://tech.gsa.gov/guides/Collaboration_Across_Agile_Teams/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{??}{api}{[n. d.]}]%
+        {apiumhub}
+ \bibinfo{year}{[n. d.]}\natexlab{}.
+\newblock \showarticletitle{The importance of a good software architecture}.
+\newblock  (\bibinfo{year}{[n. d.]}).
+\newblock
+\urldef\tempurl%
+\url{https://apiumhub.com/tech-blog-barcelona/importance-good-software-architecture/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Hyldmo}{Hyldmo}{2015}]%
+        {NikolaiH}
+\bibfield{author}{\bibinfo{person}{Nikolai Hyldmo}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Coordination Between Teams in Agile Projects}.
+\newblock  (\bibinfo{date}{june} \bibinfo{year}{2015}).
+\newblock
+\urldef\tempurl%
+\url{https://brage.bibsys.no/xmlui/bitstream/handle/11250/2351134/13975_FULLTEXT.pdf?sequence=1/}
 \showURL{%
 \tempurl}
 
