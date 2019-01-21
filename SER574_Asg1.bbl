@@ -37,12 +37,17 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Kaur}{Kaur}{[n. d.]}]%
-        {Sonia}
+\bibitem[\protect\citeauthoryear{Kaur}{Kaur}{2013}]%
+        {SoniaT}
 \bibfield{author}{\bibinfo{person}{Sonia Thakur \&~Amandeep Kaur}.}
-  \bibinfo{year}{[n. d.]}\natexlab{}.
-\newblock  (\bibinfo{year}{[n. d.]}).
+  \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Role of Agile Methodology in Software Development}.
+\newblock  (\bibinfo{date}{oct} \bibinfo{year}{2013}).
 \newblock
+\urldef\tempurl%
+\url{https://ijcsmc.com/docs/papers/October2013/V2I10201315.pdf}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{MALIK~HNEIF}{MALIK~HNEIF}{2009}]%

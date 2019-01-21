@@ -5,63 +5,56 @@ The style file: ACM-Reference-Format.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: sample-base.bib
-I was expecting a `,' or a `}'---line 7 of file sample-base.bib
- :   
- :   title         = "Role of Agile Methodology in Software Development",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty year in Sonia
-Warning--empty title in Sonia
-Warning--no journal in Sonia
-Warning--no number and no volume in Sonia
-Warning--page numbers missing in both pages and numpages fields in Sonia
+Warning--no journal in SoniaT
+Warning--no number and no volume in SoniaT
+Warning--page numbers missing in both pages and numpages fields in SoniaT
 Warning--no journal in MalikH
 Warning--no number and no volume in MalikH
 Warning--page numbers missing in both pages and numpages fields in MalikH
 You've used 2 entries,
             5732 wiz_defined-function locations,
-            1301 strings with 14675 characters,
-and the built_in function-call counts, 1593 in all, are:
-= -- 119
+            1304 strings with 14788 characters,
+and the built_in function-call counts, 1694 in all, are:
+= -- 145
 > -- 40
 < -- 0
 + -- 10
 - -- 16
-* -- 105
-:= -- 186
-add.period$ -- 9
+* -- 110
+:= -- 188
+add.period$ -- 10
 call.type$ -- 2
 change.case$ -- 10
 chr.to.int$ -- 2
-cite$ -- 10
-duplicate$ -- 156
-empty$ -- 118
+cite$ -- 8
+duplicate$ -- 169
+empty$ -- 125
 format.name$ -- 16
-if$ -- 332
+if$ -- 348
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 8
-newline$ -- 59
+newline$ -- 64
 num.names$ -- 16
-pop$ -- 94
+pop$ -- 70
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 28
 quote$ -- 0
-skip$ -- 35
+skip$ -- 47
 stack$ -- 0
-substring$ -- 87
+substring$ -- 117
 swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 32
-warning$ -- 8
+warning$ -- 6
 while$ -- 16
 width$ -- 0
-write$ -- 73
-(There was 1 error message)
+write$ -- 79
+(There were 6 warnings)
