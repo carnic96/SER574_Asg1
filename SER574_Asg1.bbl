@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -99,6 +99,20 @@
 \url{https://www.arpapress.com/Volumes/Vol1/IJRRAS_1_01.pdf}
 \showURL{%
 Retrieved Jan 18, 2018 from \tempurl}
+
+
+\bibitem[\protect\citeauthoryear{Parekh}{Parekh}{2015}]%
+        {SunitP}
+\bibfield{author}{\bibinfo{person}{Sunit Parekh}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Collaboration Techniques for Large Distributed
+  Agile Projects}.
+\newblock  (\bibinfo{date}{Feb} \bibinfo{year}{2015}).
+\newblock
+\urldef\tempurl%
+\url{https://www.thoughtworks.com/insights/blog/collaboration-techniques-large-distributed-agile-projects}
+\showURL{%
+\tempurl}
 
 
 \end{thebibliography}
