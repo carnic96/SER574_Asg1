@@ -4,7 +4,7 @@
 %
 % defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
-    
+
 % Rights management information. 
 % This information is sent to you when you complete the rights form.
 % These commands have SAMPLE values in them; it is your responsibility as an author to replace
@@ -13,10 +13,10 @@
 
 
 
-
 %%%%%%%%%%%%%%5
 \usepackage{lipsum}
 
+\renewcommand\footnotetextcopyrightpermission[1]{}
 \begin{document}
 
 %
@@ -30,29 +30,29 @@
 \author{Carnic}
 \email{clnu2@asu.edu}
 \affiliation{%
-  \institution{Arizona State University}
-  \city{Tempe}
-  \state{Arizona}
-  \country{United States}
+	\institution{Arizona State University}
+	\city{Tempe}
+	\state{Arizona}
+	\country{United States}
 }
 
 \author{Rishab Mantri}
 \email{rsmantri@asu.edu}
 \affiliation{%
-  \institution{Arizona State University}
-  \city{Tempe}
-  \state{Arizona}
-  \country{United States}
+	\institution{Arizona State University}
+	\city{Tempe}
+	\state{Arizona}
+	\country{United States}
 }
 
 
 %
 % The abstract is a short summary of the work to be presented in the article.
 \begin{abstract}
-The technology industry is moving at such a fast pace, that it led to the introduction of the ‘agile methodology’ that allows changes even after the requirements have been stated. The agile manifesto talks about certain rules that a SCRUM team has to follow in order to be a self-organised team. However, having said that, SCRUM can be implemented only on a small team. It does not talk about how multiple teams following \textit {agile} should work and respond to changes. Many projects are larger and need more than one team to succeed, which may result in issues for project managers on how to effectively coordinate. Although coordinating large, multi team projects is not new, but doing it in agile projects is new. 
-
-
-This paper presents a solution that can be used to solve this problem. Making rules similar to that of scrum, will lead to an effective collaboration among the teams in order to result in the desirable product. It is highly important to be able to perform project management in the best way possible to grow in this market, especially if the project is at a large scale.
+	The technology industry is moving at such a fast pace, that it led to the introduction of the ‘agile methodology’ that allows changes even after the requirements have been stated. The agile manifesto talks about certain rules that a SCRUM team has to follow in order to be a self-organised team. However, having said that, SCRUM can be implemented only on a small team. It does not talk about how multiple teams following \textit {agile} should work and respond to changes. Many projects are larger and need more than one team to succeed, which may result in issues for project managers on how to effectively coordinate. Although coordinating large, multi team projects is not new, but doing it in agile projects is new. 
+	
+	
+	This paper presents a solution that can be used to solve this problem. Making rules similar to that of scrum, will lead to an effective collaboration among the teams in order to result in the desirable product. It is highly important to be able to perform project management in the best way possible to grow in this market, especially if the project is at a large scale.
 \end{abstract}
 
 
@@ -80,13 +80,26 @@ The Agile Manifesto emphasizes on individuals and interactions over processes an
 Although the rules for following SCRUM are pretty straightforward when it comes to one group, it is uncertain as to how multiple teams should collaborate together. 
 However, following the laid back pattern of agile, we can form something similar to what we can call the scrum of scrums\cite{gsa}. The teams will work individually following the rules specified in the Agile Manifesto, however, similar ones can be applied to make the teams collaborate effectively. 
 
-Before the project begins, it is vital for all members to not just understand the requirements, but also the architecture of the project. Because it is being implemented on such a large scale, each member should know where their contribution will be linked to the final product\cite{apiumhub}. This means that they should have a clear idea about the stage of the project when they have to add their product. Knowing the architecture is basically knowing the plan of the system. Therefore it makes the communication among the teams and stakeholders much easier and the decision making process much more efficient. It also means that the model of the software will be ready and will be available for reuse if required. 
+\subsection{Software Architecture}
+Architecture-relevant decisions mostly involve systematic mapping of key requirements to software architecture. Only when done in a systematic way, development teams can verify they implemented the key requirements correctly. Software architecture works as a blueprint of the system and the project. Developing complex or larger softwares can often fail if the architecture is ignored. Architecture usually implies the mapping of key requirements to the system. When followed correctly, the verification of the system and interaction with the stakeholders can become a lot easier.
 
+\subsubsection{Particularly in multiple teams}
+
+Although agile provides flexibility in terms of change in requirements, having the basic architecture predefined gives the developers an understanding of how the system is supposed to look like because the product vision overall remains the same. It is vital for all members to not just understand the requirements, but also the architecture of the project. Because it is being implemented on such a large scale, each member should know where their contribution will be linked to the final product\cite{apiumhub}. This means that they should have a clear idea about the stage of the project when they have to add their product. Knowing the architecture is basically knowing the plan of the system. Therefore it makes the communication among the teams and stakeholders much easier and the decision making process much more efficient. It also means that the model of the software will be ready and will be available for reuse if required. Having multiple teams working together, with each having their own product being built somewhat separately, can cause major problems during integration if they don't understand the base of how their system is supposed to work. This can lead to the failure of the entire project as well.
+
+\subsubsection{Software design}
 While software architecture will provide the developers with the model, they need to design the software as well to divide the work in order to work as independent teams. It will prevent redundancy and ensure that their work does not interfere with each other, minimising dependencies\cite{NikolaiH}.This will help the stakeholders and developers get a clear idea on how the software will look on completion. It is the initial vision of the project, and if understood well, the teams will not have a hard time combining their separate products in the end.
 
-As it works in agile, each team should have multidisciplinary members with various skillsets so that they have a necessary cultural and structural change to support themselves. Within the team however, they should work like they do following scrum, and have their independency in order to be self organised. The scrum masters of each team can have something similar to a ‘Daily Stand up’ at the end of each sprint in order to discuss the progress of each team and talk about the impediments faced. If a team feels they need help from another, they can decide amongst themselves to come across some agreement. This will map cross team dependencies and help them understand how their separate efforts will contribute. If there are multiple product owners, they can check in more often to talk about the scope and acceptance criteria and prioritise their product backlogs whenever required. Cross team retrospectives will also be a part of this process to allow the teams to examine their progress and identify items that need to be improved.  
+\subsection{Important factors}
 
-When a few teams start working together, they can have a separate short meeting to discuss the way they will go about it. This will reduce inconsistency when the individual efforts are integrated. 
+\subsubsection{Healthy product backlog}
+Following agile at such a large scale can be pretty challenging. With the structure in mind, the team members should build a healthy product backlog and be aware of the requirements. Work distribution is key here. Each team should have a clear separation of work. That is, there should be as little dependency as possible. The ideal scenario would be when the multiple small projects just need to be integrated together in the end.
+
+\subsubsection{Communication}
+The teams need to coordinate with each other by always communicating with each other, in person, or using tools like Slack, Trello etc to make sure that one does not hesitate to ask. Distributed agile in general is a difficult tool, and helping each other along the way will get it done effectively.
+
+\subsubsection{The scrum of scrums}
+As it works in agile, each team should have multidisciplinary members with various skillsets so that they have a necessary cultural and structural change to support themselves. Within the team however, they should work like they do following scrum, and have their independency in order to be self organised. The scrum masters of each team can have something similar to a ‘Daily Stand up’ at the end of each sprint in order to discuss the progress of each team and talk about the impediments faced. If a team feels they need help from another, they can decide amongst themselves to come across some agreement. This will map cross team dependencies and help them understand how their separate efforts will contribute. If there are multiple product owners, they can check in more often to talk about the scope and acceptance criteria and prioritise their product backlogs whenever required. Cross team retrospectives will also be a part of this process to allow the teams to examine their progress and identify items that need to be improved. When a few teams start working together, they can have a separate short meeting to discuss the way they will go about it. This will reduce inconsistency when the individual efforts are integrated. 
 
 
 % \lipsum
@@ -108,4 +121,7 @@ Hence for agile teams to work together effectively and to overcome the challenge
 % If your work has an appendix, this is the place to put it.
 \appendix
 
+% 
+% If your work has an appendix, this is the place to put it.
+%\bibliography{sample-base}
 \end{document}
